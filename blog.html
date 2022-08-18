@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAV University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Course & Ceritificates For 2022</h1>
+    </section>
+        <!---------------------------------blog---------------------------------- -->
+       <section class="blog-content">
+           <div class="row">
+               <div class="blog-left">
+                   <img src="images/ceritificate.jpg">
+                   <h2>Our Course & Ceritificates For 2022</h2>
+                   <p>Covering important aspects of career development to give you the edge, this blog has articles
+                    on preparing your first resume, networking, interview and internship tips. It also includes unique and 
+                    inspiring videos such as “ How to Find a Job When One Doesn’t Yet Exist”.
+                    Covering helpful articles from choosing a career to job interview techniques, this blog also posts interesting
+                    interviews from graduates as they share their stories of moving from education into full-time employment.<br>
+                    Offers a wide variety of information with helpful articles on career development and startup businesses, student internships, 
+                    and posts from culinary students along with tech reviews. It also offers a great selection on posts related to international studies.
+                    n online education blog with video postings and webinars. Focuses on readers who are ready to return to school and provides resources 
+                    such as career service topics and financial aid articles. Also features the “Instructor Blog”, a series of helpful articles written by 
+                    online instructors to assist students with study and organizational issues.An interesting blog for all students studying the arts, 
+                    whether it be culinary arts, graphic and web design, film, fashion or animation. The site posts many on-trend topics along with 
+                    designer/worker profiles which are sure to inspire students onto greater things!<br><br>
+                    An engaged careers blog covering the medical, engineering and technology / security industries. Articles discuss the skills needed to
+                     succeed in these fields, including resume tips, case studies and the impact of technology on these areas of work.Offers a wide variety of 
+                     information with helpful articles on career development and startup businesses, student internships, 
+                     and posts from culinary students along with tech reviews. It also offers a great selection on posts related to international studies.
+                     n online education blog with video postings and webinars. Focuses on readers who are ready to return to school and provides resources 
+                     such as career service topics and financial aid articles. Also features the “Instructor Blog”, a series of helpful articles written by 
+                     online instructors to assist students with study and organizational issues.An interesting blog for all students studying the arts, 
+                     whether it be culinary arts, graphic and web design, film, fashion or animation. </p>
+                     
+                     <div class="comment-box">
+                         <h3>Leave  a comment</h3>
+                         <form class="comment-form">
+                             <input type="text" placeholder="Enter Name">
+                             <input type="email" placeholder="Enter Email">
+                             <textarea rows="5" placeholder="Your Comment"></textarea>
+                             <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                         </form>
+                     </div>
+               </div>
+               <div class="blog-right">
+                   <h3>Post categories</h3>
+                   <div>
+                       <span>Business Analytics</span>
+                       <span>21</span>
+                   </div>
+                   <div>
+                    <span>Computer Fundamentals</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Java</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Phython</span>
+                    <span>16</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>29</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>24</span>
+                </div>
+               </div>
+           </div>
+       </section>
+
+    
+<!-- ---------------------------------------Footer---------------------------------------------->
+    
+<section class="foot">
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>DAV University is the best university in Punjab in terms of quality education and student support. It is better than any college or 
+            institute in Jalandhar/ Punjab/ the region.<br> Undoubtedly, it is the top university in Jalandhar.</p>
+        <div class="icons">
+            <img src="images/icon-facebook.svg" alt="">
+            <img src="images/icon-instagram.svg" alt="">
+            <img src="images/icon-pinterest.svg" alt="">
+            <img src="images/icon-twitter.svg" alt="">
+        </div>
+    </div>
+    
+</section>
+
+<!-- ----------------------------------------------javaScript for toggle menu---------------------------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+ 
+
+</body>
+</html>
+
+
+

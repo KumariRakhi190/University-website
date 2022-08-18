@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAV University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+    <!-- -------------------------------------contact us----------------------------------------- -->
+    <div class="location">
+        <h1></h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.7224042234952!2d75.61492411510316!3d31.421773481402326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5134e38445c5%3A0x8aa6b057b2a5a092!2sDAV%20University!5e0!3m2!1sen!2sin!4v1659087930237!5m2!1sen!2sin" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </div>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>National Highway, Pathankot - Jalandhar Rd</h5>
+                        <p>Jalandhar, Punjab 144001</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday, 9AM to 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>davuniversity@019.com</h5>
+                        <p>Email us for your Queries</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your Name" required>
+                    <input type="email" placeholder="Enter Email Address" required>
+                    <input type="text" placeholder="Enter your Subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+
+
+            </div>
+        </div>
+    </section>
+    
+<!-- ---------------------------------------Footer---------------------------------------------->
+    
+<section class="foot">
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>DAV University is the best university in Punjab in terms of quality education and student support. It is better than any college or institute in Jalandhar/ Punjab/ the region.<br> Undoubtedly, it is the top university in Jalandhar.</p>
+        <div class="icons">
+            <img src="images/icon-facebook.svg" alt="">
+            <img src="images/icon-instagram.svg" alt="">
+            <img src="images/icon-pinterest.svg" alt="">
+            <img src="images/icon-twitter.svg" alt="">
+        </div>
+    </div>
+    
+</section>
+
+<!-- ----------------------------------------------javaScript for toggle menu---------------------------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+ 
+
+</body>
+</html>
+
+
+
